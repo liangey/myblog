@@ -6,9 +6,10 @@
 #@File : blog_urls.py
 #@Software : PyCharm
 
-from django.conf.urls import  url
-from . import  views
 
-urlpatterns=[
-    url(r'^index/',views.index),
+from django.conf.urls import url
+from . import views
+
+urlpatterns = [
+    url('index/',views.index),
 ]
